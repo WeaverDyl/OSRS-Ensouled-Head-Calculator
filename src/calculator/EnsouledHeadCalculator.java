@@ -710,14 +710,14 @@ public class EnsouledHeadCalculator {
 						       (elfExperience * Long.parseLong(numberOfElfHeads.getText())) +
 						       (trollExperience * Long.parseLong(numberOfTrollHeads.getText())) +
 						       (horrorExperience * Long.parseLong(numberOfHorrorHeads.getText())) +
-						  	   (kalphiteExperience * Long.parseLong(numberOfKalphiteHeads.getText())) +
-						  	   (dagannothExperience * Long.parseLong(numberOfDagannothHeads.getText())) +
-						  	   (bloodveldExperience * Long.parseLong(numberOfBloodveldHeads.getText())) +
-						  	   (tzhaarExperience * Long.parseLong(numberOfTzHaarHeads.getText())) +
-						  	   (demonExperience * Long.parseLong(numberOfDemonHeads.getText())) +
-						  	   (aviansieExperience * Long.parseLong(numberOfAviansieHeads.getText())) +
-						  	   (abyssalExperience * Long.parseLong(numberOfAbyssalHeads.getText())) +
-						  	   (dragonExperience * Long.parseLong(numberOfDragonHeads.getText()))));
+						       (kalphiteExperience * Long.parseLong(numberOfKalphiteHeads.getText())) +
+						       (dagannothExperience * Long.parseLong(numberOfDagannothHeads.getText())) +
+					       	       (bloodveldExperience * Long.parseLong(numberOfBloodveldHeads.getText())) +
+						       (tzhaarExperience * Long.parseLong(numberOfTzHaarHeads.getText())) +
+						       (demonExperience * Long.parseLong(numberOfDemonHeads.getText())) +
+						       (aviansieExperience * Long.parseLong(numberOfAviansieHeads.getText())) +
+						       (abyssalExperience * Long.parseLong(numberOfAbyssalHeads.getText())) +
+						       (dragonExperience * Long.parseLong(numberOfDragonHeads.getText()))));
 		
 		return totalExperience;
 	}
